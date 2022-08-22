@@ -1,0 +1,839 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.navigation,
+.trips-and-tours,
+.why-work,
+.milestones,
+.meet-our-team,
+.get-in-touch, 
+pre,
+.trips-and-tours button
+{
+    margin: 10px 170px 0 170px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* navigation */
+
+.navigation {
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    margin-top: 0px;
+}
+
+.navigation .navigation-1 {
+    display: flex;
+}
+
+.navigation .navigation-1 .menu {
+    width: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+.navigation-ul {
+    list-style: none;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.navigation-ul li {
+    margin-right: 30px;
+}
+
+.profile-svg {
+    width: 30px;
+    margin-left: 470px;
+    margin-top: 9px;
+}
+
+
+/* trips and tours section */
+
+.trips-and-tours {
+    margin-left: 110px;
+    margin-right: 110px;
+    
+}
+
+.trips-and-tours h5,
+.trips-and-tours h1,
+.trips-and-tours button 
+{
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.trips-and-tours-h5 {
+    margin-bottom: 0px;
+    color: #0453B5;
+    text-transform: uppercase;
+}
+
+.trips-and-tours-h1 {
+    margin-top: 3px;
+    font-size: 30px;
+    margin-left: 140px;
+    padding-left: 250px;
+    padding-right: 400px;
+}
+
+.trips-and-tours p {
+    padding-left: 300px;
+    padding-right: 260px;
+    color: #999696;
+    font-weight: 500;
+}
+
+.trips-and-tours .span1 {
+    margin-left: 13px;
+}
+
+.trips-and-tours p .span2 {
+    margin-left: 340px;
+}
+
+.trips-and-tours button {
+    margin-left: 570px;
+    padding: 20px 40px 20px 40px;
+    border: hidden;
+    border-radius: 10px;
+    background-color: #0453B5;
+    color: white;
+}
+
+.blue-buildings {
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 210px;
+    margin-bottom: 40px;
+}
+
+/* why work section */
+
+.why-work {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 0px 30px;
+}
+
+.why-work div {
+    padding-top: 180px;
+    padding-right: 50px;
+}
+
+.why-work .div1 {
+    margin-left: 130px;
+}
+
+.why-work .p {
+    padding-top: 125px;
+    padding-bottom: 330px;
+    margin-left: 280px;
+    background-color: #FFA500;
+    margin-right: 0px;
+    line-height: 30px;
+}
+
+.why-work h4 {
+    text-transform: uppercase;
+    color: #FFA500;
+    margin-bottom: 3px;
+}
+
+.why-work h1 {
+    margin-top: 0px;
+    font-size: 35px;
+    font-weight: 900px;
+
+}
+
+.why-work p {
+    font-size: 17px;
+    color: white;
+    width: 610px;
+    padding: 0 30px 0 30px;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+.why-work button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    margin-top: 10px;
+    padding: 12px 40px 12px 40px;
+    border: hidden;
+    border-radius: 5px;
+    background-color: white;
+    color: #FFA500;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transform: 1s;
+}
+
+
+/* milestones section */
+
+.milestones {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.milestones h1 {
+    padding-top: 270px;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    margin-right: 270px;
+    margin-left: 140px;
+}
+
+.milestones div {
+    margin-right: 370px;
+    width: 400px;
+}
+
+.tower {
+    width: 430px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.milestones h4 {
+    color: #FFA500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.milestones h3 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.milestones p {
+    margin-top: 0px;
+    color: #999696;
+    line-height: 25px;
+}
+
+/* meet our team */
+
+.meet-our-team {
+    text-align: center;
+}
+
+.meet-images {
+    display: flex;
+    justify-content: center;
+}
+
+.meet-image1,
+.meet-image2 {
+    width: 170px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.meet-image2 {
+    width: 230px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.meet-image1 {
+    margin-top: 20px;
+}
+
+.meet-images p {
+    font-size: 13px;
+}
+
+.p1 {
+    margin-right: 50px;
+}
+
+
+/* get in touch section */
+
+.get-in-touch {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.form {
+    margin-top: 40px;
+    margin-right: 29px;
+}
+
+.get-in-touch div:nth-child(1) {
+    margin-left: 80px;
+}
+
+.get-in-touch h2 {
+    margin-bottom: 0px;
+    font-size: 28px;
+}
+
+.get-in-touch p {
+    padding-right: 240px;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #999696;
+    line-height: 20px;
+}
+
+.get-in-touch h5 {
+    margin-bottom: 3px;
+}
+
+.get-in-touch input {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #999696;
+    padding: 10px 237px 10px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.get-in-touch textarea {
+    padding: 10px;
+    padding-right: 252px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.get-in-touch button {
+    margin-top: 15px;
+    margin-left: 265px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    border: hidden;
+    background-color: #FFA500;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 30px;
+    background-color: #936be80d;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.left-footer {
+    display: flex;
+}
+
+.left-footer nav {
+    margin-left: 170px;
+}
+
+.left-footer nav:nth-child(2),
+.left-footer nav:nth-child(3)
+{
+    margin-left: 50px;
+}
+
+.left-footer nav h2 {
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.left-footer nav ul {
+    list-style: none;
+}
+
+.left-footer nav li {
+    font-size: 12px;
+    line-height: 28px;
+    color: #999696;
+}
+
+
+
+.right-footer {
+    margin-right: 190px;
+}
+
+.right-footer h2 {
+    font-size: 17px;   
+}
+
+.right-div {
+    background-color: rgb(255, 255, 255);
+    padding: 30px 10px 30px 10px;
+    border: 1px;
+}
+
+.right-input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 130px;
+    border: 2px solid #fbb32f;
+    border-right: hidden;
+}
+
+.right-footer div button {
+    padding: 14px;
+    border-radius: 5px;
+    border: hidden;
+    background-color: #fbb32f;
+    color: white;
+    
+}
+
+/* bottom footer */
+
+
+.bottom-footer {
+    padding-top: 10px;
+    background-color: #936be80d;
+    margin-top: 0px;
+}
+
+.bottom-footer p {
+    padding: 20px 0px 20px 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 450px;
+    color: #999696;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.bottom-footer .bfd{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bfi {
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.bfi2 {
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.bfd {
+    border: solid 1px;
+    border-right: hidden;
+    border-left: hidden;
+    border-bottom: hidden;
+    margin-right: 200px;
+    margin-left: 270px;
+}
+
+/* soft hover properties */
+
+.trips-and-tours button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.blue-buildings:hover {
+    transform: scale(1.01);
+    transition: 1s;
+}
+
+.why-work .p:hover {
+    transform: scale(1.01);
+    transition: 1s;
+}
+
+
+@media (max-width: 376px) {
+    body {
+        margin: 0px;
+    }
+    .navigation {
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 9px;
+        justify-content: space-between;
+    }
+    .navigation .navigation-1 .menu {
+        display: block;
+        margin-left: 70px;
+        margin-right: 140px;
+    }
+    .navigation-ul {
+        display: none;
+    }
+    .profile-svg {
+        margin-left: 0px;
+    }
+
+
+
+    .trips-and-tours {
+        margin: 0px;
+        
+    }
+
+    .trips-and-tours-h5 {
+        font-size: 10px;
+    }
+
+    .trips-and-tours-h1 {
+        font-size: 15px;
+        padding: 0px;
+        margin: 0px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .trips-and-tours p {
+        font-size: 8px;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 85px;
+        padding-right: 70px;
+        text-align: center;
+    }
+
+    .trips-and-tours p .span1 {
+        margin: 0px;
+        margin-left: 2px;
+    }
+
+    .trips-and-tours p .span2 {
+        margin: 0px;
+    }
+
+    .trips-and-tours button {
+        margin: 0px;
+        margin-top: 10px;
+        margin-left: 140px;
+        padding: 10px 20px 10px 20px;
+        font-size: 9px;
+    }
+
+    .blue-buildings {
+        width: 95%;
+        margin: 0px;
+        margin: 10px 10px 10px 10px;
+    }
+
+
+
+    .why-work {
+        display: block;
+        margin: 0px;
+        margin-top: 30px;
+        padding-top: 0px;
+    }
+
+    .why-work div {
+        padding: 0px;
+        margin-bottom: 0px;
+        margin: 0px;
+    }
+
+    .why-work .div1 {
+        margin-left: 0px;
+    }
+
+    .why-work h4 {
+        font-size: 9px;
+        margin-left: 10px;
+    }
+
+    .why-work h1 {
+        font-size: 17px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .why-work .p {
+        margin-left: 0px;
+        padding: 0px;
+        /* padding: 0px;
+        padding: 5px 0px 10px 0px; */
+    }
+
+    .why-work .p p {
+        padding-left: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 10px;
+        width: 97%;
+        line-height: 20px;
+    }
+
+    .why-work .p p:nth-child(1) {
+        padding-top: 15px;
+    }
+
+    .why-work button {
+        padding: 0px;
+        margin: 0px;
+        padding: 10px 20px 10px 20px;
+        font-size: 9px;
+        margin-bottom: 25px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .milestones {
+        flex-direction: column;
+        display: block;
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .milestones h1 {
+        font-size: 17px;
+        margin-left: 10px;
+        padding-top: 30px;
+    }
+
+    .milestones hr {
+        margin: 0px;
+        margin: 10px;
+    }
+
+    .tower {
+        width: auto;
+        margin: 0px;
+        margin: auto;
+    }
+
+    .milestones h3,
+    .milestones h4,
+    .milestones p
+     {
+        margin-left: 10px;
+    }
+
+    .milestones h3 {
+        font-size: 17px;
+        margin-top: 3px;
+    }
+/* 
+    .milestones div {
+        margin: 10px;
+    } */
+
+    .milestones h4 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .milestones p {
+        font-size: 15px;
+        padding: 0px;
+        font-weight: 600px;
+    }
+
+
+
+
+
+
+    .meet-our-team {
+        margin: 0px;
+        margin-top: 80px;
+    }
+
+    .meet-images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meet-image1,
+    .meet-image2
+     {
+        width: 60%;
+    }
+
+    .meet-image1 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .p1 {
+        margin-left: 50px;
+    }
+
+
+
+
+
+    .get-in-touch {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        margin: 20px 10px 20px 10px;
+    }
+
+    .get-in-touch div:nth-child(1) {
+        margin-left: 0px;
+    }
+
+    .get-in-touch h2 {
+        margin-bottom: 14px;
+        font-size: 17px;
+    }
+
+    .get-in-touch div p {
+        margin-top: 10px;
+        font-size: 13px;
+        margin: 0px;
+        padding: 0px;   
+    }
+
+    .get-in-touch .form {
+        margin-right: 0px;
+    }
+
+    .get-in-touch input {
+        padding-right: 100px;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .get-in-touch textarea {
+        padding-right: 215px;
+        font-size: 10px;
+    }
+
+    .get-in-touch button {
+        font-size: 11px;
+        margin-right: 0px;
+        margin-left: 211px;
+    }
+
+
+
+
+
+
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .left-footer {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        text-align: start;
+    }
+
+    .left-footer nav {
+        margin-left: 0px;
+    }
+
+    .left-footer nav:nth-child(2) {
+        margin-left: 0px;
+    }
+
+    .left-footer nav:nth-child(3) {
+        margin-left: 0px;
+    }
+
+    .left-footer nav ul {
+        padding-left: 13px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    .left-footer nav h2 {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .right-footer {
+        margin: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .right-div {
+        margin: 0px;
+        padding: 30px 17px 30px 20px;
+        display: flex;
+    }
+
+    .right-input {
+        /* padding-right: 170px; */
+        padding-left: 5px;
+    }
+
+    .right-footer div button {
+        padding: 10px;
+    }
+
+    .bottom-footer .bfd {
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bf-images {
+        margin-left: 140px;
+    }
+
+    .bfd {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .bfi,
+    .bfi2
+    {
+        margin: 0px;
+        margin-top: 0px;
+        width: 15px;
+    }
+
+    .bfd div p {
+        margin: 0px;
+        padding: 0px;
+        font-size: 10px;
+        padding: 10px 40px 10px 20px;
+    }
+}
