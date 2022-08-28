@@ -523,6 +523,7 @@ button:hover {
         font-size: 9px;
     }
 
+
     /* display of the menu svg back to visible */
     .navigation .navigation-1 .menu {
         display: block;
@@ -546,6 +547,18 @@ button:hover {
         margin-left: 10px;
     }
 
+
+    /* classes to be added with javascript toggle */
+    .navigation2 {
+        display: block;
+    }
+    .navigation-ul2{
+        display: block;
+    }
+
+
+
+    
 
     /* display of the trips and tours section */
     .trips-and-tours {
@@ -634,8 +647,6 @@ button:hover {
     .why-work .p {
         margin-left: 0px;
         padding: 0px;
-        /* padding: 0px;
-        padding: 5px 0px 10px 0px; */
     }
 
     .why-work .p p {
@@ -662,9 +673,8 @@ button:hover {
 
 
 
-
-
-
+    /* display of the milestones section */
+    
     .milestones {
         flex-direction: column;
         display: block;
@@ -684,9 +694,8 @@ button:hover {
     }
 
     .tower {
-        width: auto;
+        width: 100%;
         margin: 0px;
-        margin: auto;
     }
 
     .milestones h3,
@@ -698,21 +707,18 @@ button:hover {
 
     .milestones h3 {
         font-size: 17px;
-        margin-top: 3px;
-    }
-/* 
-    .milestones div {
         margin: 10px;
-    } */
+    }
 
     .milestones h4 {
         font-size: 14px;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     .milestones p {
         font-size: 15px;
-        padding: 0px;
+        padding-right: 0px;
+        width: 90%;
         font-weight: 600px;
     }
 
@@ -720,12 +726,13 @@ button:hover {
 
 
 
-
+    /* display of the meet our team section */
     .meet-our-team {
         margin: 0px;
         margin-top: 80px;
     }
 
+    /* display of the images */
     .meet-images {
         display: flex;
         flex-direction: column;
@@ -748,15 +755,15 @@ button:hover {
 
 
 
-
-
+    /* display of get un touch section */
     .get-in-touch {
         flex-direction: column;
         margin: 0px;
         padding: 0px;
         margin: 20px 10px 20px 10px;
     }
-
+    
+    /* display of the first div */
     .get-in-touch div:nth-child(1) {
         margin-left: 0px;
     }
@@ -777,29 +784,30 @@ button:hover {
         margin-right: 0px;
     }
 
+    /* styling of the second div (inputs) */
     .get-in-touch input {
-        padding-right: 100px;
+        width: 98%;
+        padding-right: 0px;
         font-size: 12px;
         width: 100%;
     }
 
     .get-in-touch textarea {
-        padding-right: 215px;
+        width: 99%;
+        padding-right: 0px;
         font-size: 10px;
     }
 
     .get-in-touch button {
         font-size: 11px;
         margin-right: 0px;
-        margin-left: 211px;
+        margin-left: 240px;
     }
 
 
 
 
-
-
-
+    /* change of display of the footer section to vertical */
     .footer {
         flex-direction: column;
     }
@@ -834,6 +842,8 @@ button:hover {
         margin-bottom: 5px;
     }
 
+
+    /* display of the right footer (newsletter side) */
     .right-footer {
         margin: 0px;
         margin-left: 10px;
@@ -847,22 +857,21 @@ button:hover {
     }
 
     .right-input {
-        /* padding-right: 170px; */
-        padding-left: 5px;
+        width: 50%;
+        padding-left: 7px;
     }
 
     .right-footer div button {
         padding: 10px;
+        width: 25%;
     }
 
+
+    /* display of the bottom footer */
     .bottom-footer .bfd {
         display: block;
         margin-left: 20px;
         margin-right: 20px;
-    }
-
-    .bf-images {
-        margin-left: 140px;
     }
 
     .bfd {
@@ -870,18 +879,25 @@ button:hover {
         padding: 0px;
     }
 
-    .bfi,
-    .bfi2
-    {
-        margin: 0px;
-        margin-top: 0px;
-        width: 15px;
-    }
-
     .bfd div p {
         margin: 0px;
         padding: 0px;
         font-size: 10px;
+        line-height: 14px;
         padding: 10px 40px 10px 20px;
     }
+
+    .bf-images {
+        margin-left: 100px;
+    }
+
+    .bfi,
+    .bfi2
+    {
+        margin: 10px;
+        margin-right: 20px;
+        width: 8%;
+    }
+
+
 }
