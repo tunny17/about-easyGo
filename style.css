@@ -341,7 +341,7 @@ button:hover {
 
 .get-in-touch textarea {
     padding: 10px;
-    padding-right: 252px;
+    width: 82%;
     border-radius: 5px;
     font-family: 'Lato', sans-serif;
 }
@@ -419,10 +419,9 @@ button:hover {
 
 /* style of the newsletter's input */
 .right-input {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0px 10px 7px;
     border-radius: 5px;
-    width: 130px;
+    width: 60%;
     border: 2px solid #fbb32f;
     border-right: hidden;
 }
@@ -558,7 +557,7 @@ button:hover {
 
 
 
-    
+
 
     /* display of the trips and tours section */
     .trips-and-tours {
